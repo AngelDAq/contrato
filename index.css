@@ -11,7 +11,7 @@ body {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background: url('/imagen_fondo.jpg') no-repeat right center; /* Imagen de fondo en el contenido */
+    background: url('./imagenes/imagen_fondo.jpg') no-repeat right center; /* Imagen de fondo en el contenido */
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
