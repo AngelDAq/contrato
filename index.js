@@ -3,12 +3,24 @@ function saludar() {
 }
 
 
-console.log(saludar());
 
 
+function mostrarMensajes() {
+    console.log("Mensaje 1");
+    console.log("Mensaje 2");
+    console.log("Mensaje 3");
+}
 
-let elementos=[3,4,4,2,4]
+function sumar() {
+    return 2 + 2;
+}
+//module.exports.mostrarMensajes = mostrarMensajes;
+//module.exports.saludar = saludar;
 
-elementos.forEach(function(numero){
-  console.log(numero);
-})
+
+module.exports ={
+    mostrarMensajes : mostrarMensajes,
+    saludar : saludar,
+    sumar : sumar
+}
+
